@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <title>Revamp</title>
+
+</head>
+
+<body>
+  <!-- amdt header -->
+  <header>
+    <nav class="navbar navbar-expand-lg header-nav fixed-top">
+      <a class="main-logo" href="index.html"><img src="images/amdt-logo-2.png"></a>
+      <a class="mobile-logo" href="index.html"><img src="images/amdt-logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- menu items -->
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/amdt-quiz.html">Amdt Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/my-creative-page.html">My Creative Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-developer.html">About the Developer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <button class="nav-btn">Apply Now</button>
+        </ul>
+      </div>
+  </nav>  
+  </header>
+  
+  <main id="main">
+
+
+    <section class="contact-bgimage d-flex align-items-center justify-content-center">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="text-center text-white page-title">AMDT Quiz</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="events-sec">
+      <div class="row align-middle">
+        <div class="col-lg-6 order-lg-1 events-content">
+          <h1 class="font-weight-bold events-title">Get To Know About Us</h1>
+            <p class="events-para">
+              AMDT School of Creativity’s vision is to make Sri Lanka a Creative country and to empower Sri Lanka’s Creative communities with talented and motivated people, to build impactful Creative enterprises.
+            </p>
+            
+        </div>
+        <div class="col-lg-6 order-lg-2">
+          <img src="./images/quiz.jpg" class="img-fluid" alt="" width="100%">
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    
+    <div class="amdt-quiz">
+      <h1>Take Our Quiz</h1>
+      <p>Let's see how well you know about AMDT.</p>
+      <button type="button" class="btn btn-primary collapse-btn" data-toggle="collapse" data-target="#openquiz">Start Quiz <i class="fa fa-arrow-down"></i></button>
+      <div id="openquiz" class="collapse in">
+
+        <section id="events-sec">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 amdt-quiz">
+                <form id = "quiz" name = "quiz">
+    
+    
+                  <h5 class = "questions">1 - What is the well known AMDT tagline?</h5>
+                  <input id = "textbox" type = "text" name = "question1">
+                  
+                  <h5 class = "questions">2 - When was AMDT School of creativity founded ?</h5>
+                  <input type = "radio" id = "mc" name = "question2" value = "In2007"> In 2007<br>
+                  <input type = "radio" id = "mc" name = "question2" value = "In2005"> In 2005<br>
+                  <input type = "radio" id = "mc" name = "question2" value = "In2010"> In 2010<br>
+                  
+                  <h5 class = "questions">2 - Who is the main partner of the AMDT ?</h5>
+                  <input type = "radio" id = "mc" name = "question3" value = "Cambridge"> Cambridge<br>
+                  <input type = "radio" id = "mc" name = "question3" value = "Oxford"> Oxford<br>
+                  <input type = "radio" id = "mc" name = "question3" value = "Pearson">Pearson<br>
+                  
+                  <h5 class = "questions">4 - What is the international creative university which is partnering and offering their qualification to AMDT ?</h5>
+                  <input type = "radio" id = "mc" name = "question4" value = "Newcastle"> Newcastle University<br>
+                  <input type = "radio" id = "mc" name = "question4" value = "Falmouth"> Falmouth University<br>
+                  <input type = "radio" id = "mc" name = "question4" value = "Sunderland">University of Sunderland<br>
+                  
+                  <h5 class = "questions">5 - Where is amdt currently located ?</h5>
+                  <input type = "radio" id = "mc" name = "question5" value = "Bambalapitiya"> Bambalapitiya<br>
+                  <input type = "radio" id = "mc" name = "question5" value = "Battrabulla"> Battrabulla<br>
+                  <input type = "radio" id = "mc" name = "question5" value = "Rjagiriya">Rjagiriya<br>
+                  
+                  <h5 class = "questions">6 - What HND does NOT Amdt provide ?</h5>
+                  <input type = "radio" id = "mc" name = "question6" value = "Business"> Business HND<br>
+                  <input type = "radio" id = "mc" name = "question6" value = "Web"> Web & App development HND<br>
+                  <input type = "radio" id = "mc" name = "question6" value = "Accounting">Accounting HND<br>
+                  
+                  <h5 class = "questions">7 - What is one of the popular events in AMDT ?</h5>
+                  <input type = "radio" id = "mc" name = "question7" value = "APL"> APL<br>
+                  <input type = "radio" id = "mc" name = "question7" value = "BBP"> BBP<br>
+                  <input type = "radio" id = "mc" name = "question7" value = "IPL">IPL<br>
+                  
+                  <h5 class = "questions">8 - How many intakes are in Amdt ?</h5>
+                  <input type = "radio" id = "mc" name = "question8" value = "Two"> Two<br>
+                  <input type = "radio" id = "mc" name = "question8" value = "Three"> Three<br>
+                  <input type = "radio" id = "mc" name = "question8" value = "Four">Four<br>
+                  
+                  <h5 class = "questions">9 - What is another name for amdt students ? </h5>
+                  <input type = "radio" id = "mc" name = "question9" value = "Amdtians"> Amdtians<br>
+                  <input type = "radio" id = "mc" name = "question9" value = "Creativtians"> Creativtians<br>
+                  <input type = "radio" id = "mc" name = "question9" value = "Amdtyon">Amdtyon<br>
+                  
+                  <h5 class = "questions">10 - Which field amdt famourse for ? </h5>
+                  <input type = "radio" id = "mc" name = "question10" value = "Engineering"> Engineering<br>
+                  <input type = "radio" id = "mc" name = "question10" value = "Creatvity"> Creatvity<br>
+                  <input type = "radio" id = "mc" name = "question10" value = "IT">Information Technology<br>
+                  
+                  
+                  <input id = "button" type = "button" value = "See the Results !" class="btn btn-primary" onclick = "check();">
+                  
+                  
+                  </form>
+                  
+                  <div id = "after_submit">
+                  <h4 id = "number_correct"></h4>
+                  <h2 id = "message"></h2>
+                  <img id = "picture">
+                  </div>
+    
+                  </div>
+          </section>
+      </div>
+    </div>
+
+
+    <button id="topBtn"><i class="fa fa-arrow-up"></i></button>
+    
+
+
+    
+
+
+    
+
+
+    
+  
+  
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer justify-content-md-center">
+          <div class="footer-container">
+              <div class="row gy-4 gx-5 mb-4">
+                  <div class="col-lg-4 col-md-6 footer-col-1">
+                    <a class="footer-logo" href="index.html"><img src="./images/amdt-logo.png"></a>
+                      <p class="footer-about">AMDT School of Creativity’s vision is to make Sri Lanka a Creative country and to empower Sri Lanka’s Creative communities with talented and motivated people, to build impactful Creative enterprises.</p>
+                  </div>
+                  <div class="col-lg-2 col-md-6">
+                      <h5 class="text-white mb-4">Quick Links</h5>
+                      <ul class="list-unstyled footer-links">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">My Creatuve Page</a></li>
+                          <li><a href="#">About the Developer</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-6">
+                      <h5 class="text-white mb-4">Study With Us</h5>
+                      <ul class="list-unstyled footer-links">
+                          <li><a href="#">Apply</a></li>
+                          <li><a href="#">Courses</a></li>
+                          <li><a href="#">Life at AMDT</a></li>
+                          <li><a href="#">Scholarships</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <h5 class="text-white mb-4">Contact Us</h5>
+                      <ul class="list-unstyled footer-links">
+                        <li><i class="fa fa-map-marker"></i><a href="#">317A Galle Rd, Colombo 00400</a></li>
+                        <li><i class="fa fa-phone"></i><a href="#">0114 381 981</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="#">info@amdt.lk</a></li>
+                        <div class="col-lg-12 col-md-12 footer-social-icons">
+                          <li><a href="https://www.facebook.com/AMDTSriLanka/" target="_blank" class="fa fa-facebook"></a></li>
+                          <li><a href="https://www.instagram.com/amdtlk/" target="_blank" class="fa fa-instagram"></a></li>
+                          <li><a href="https://lk.linkedin.com/school/amdt-school-of-creativity/" target="_blank" class="fa fa-linkedin"></a></li>
+                          <li><a href="https://twitter.com/amdtlk" target="_blank" class="fa fa-twitter"></a></li>
+                        </div>
+                    </ul>
+                      <form action="#">
+                          <div class="input-group mb-3">
+                              <input class="form-control" type="text" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                              <a href="#" class="btn btn-primary">Send</a>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      
+          <div class="bottom-bar justify-content-md-center">
+              <div class="bottom-bar-container">
+                  <div class="col-lg-12 col-md-12">
+                      <p class="text-white text-center">All Rights Reserved. Concept & Design by <a class="developer"  target="_blank">Mohamed Adhil</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>  
+      </footer>
+
+</main>
+
+  <!-- <script src="./js/script.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+</body>
+</html>
